@@ -67,7 +67,7 @@ task("scripts", () => {
 });
 
 task("styles", () => {
-  return src([`${SRC_PATH}/sass/*.scss`])
+  return src([`${SRC_PATH}/sass/pages/*.scss`])
     .pipe(gulpif(env === "dev", sourcemaps.init()))
     .pipe(sassGlob())
     .pipe(sass().on("error", sass.logError))

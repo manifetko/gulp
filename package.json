@@ -38,5 +38,13 @@
     "jquery": "^3.5.1",
     "normalize.scss": "^0.1.0"
   },
-  "description": ""
+  "description": "npm init\r npm install\r npm run dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manifetko/gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manifetko/gulp/issues"
+  },
+  "homepage": "https://github.com/manifetko/gulp#readme"
 }
